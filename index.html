@@ -8,14 +8,25 @@
         <title>임채원_portpolio</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
 
-        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous">
+            var p;
+            function init() { // 문서가 완전히 로드되었을 때 호출 
+            p = document.getElementById("p"); 
+            p.onmouseover = function () { // 익명 함수 
+            this.style.backgroundColor = "orchid"
+        };
+            p.addEventListener("mouseout", 
+            function () {this.style.backgroundColor="white";} // 익명 함수
+            ); 
+        }
+        </script>
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
 
         <link href="css/styles.css" rel="stylesheet" />
     </head>
-    <body id="page-top">
+    <body id="page-top" onload="init()">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
@@ -39,8 +50,10 @@
             <!-- About-->
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
+                    <p id="p"> 최고의 선택! </p>    
                     <h1 class="mb-0">
-                        IM
+                        
+                        IM 
                         <span class="text-primary">CHAE WON</span>
                     </h1>
                     <div class="subheading mb-5">
@@ -55,6 +68,7 @@
                         <a class="social-icon" href="https://blog.naver.com/dla9944"><i class="fa-solid fa-book"></i></a>
                     
                     </div>
+                </p>
                 </div>
             </section>
             <hr class="m-0" />
