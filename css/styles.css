@@ -41,7 +41,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 189, 93, 56;
+  --bs-primary-rgb: 208, 100, 65;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -2026,7 +2026,7 @@ progress {
   color: var(--bs-table-hover-color);
 }
 
-.table-primary {
+.table-{
   --bs-table-bg: #f2dfd7;
   --bs-table-striped-bg: #e6d4cc;
   --bs-table-striped-color: #000;
