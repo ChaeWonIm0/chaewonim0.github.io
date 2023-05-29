@@ -11,9 +11,9 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
  .circle {
-  height: 200px;
-  width: 200px;
-  background-color: #bbb;
+  height: 400px;
+  width: 400px;
+  background-color: #e4e4e4;
   border-radius: 50%;
   display: flex;
   justify-content: center;
