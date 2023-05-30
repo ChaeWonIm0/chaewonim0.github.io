@@ -11,9 +11,9 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
  .circle {
-  height: 350px;
-  width: 350px;
-  background-color: #e4e4e4;
+  height: 300px;
+  width: 300px;
+  background-color: #e4e4e4be;
   flex-direction: column;
   border-radius: 50%;
   display: flex;
@@ -21,9 +21,10 @@
   align-items: center;
   text-align: center;
   margin-left: 2rem;
+  padding : 10px;
 }
 .circle span {
-  font-size: 13px;  /* 원 안의 글자 원하는 크기로 조정 */
+  font-size: 11px;  /* 원 안의 글자 원하는 크기로 조정 */
   /* white-space: nowrap; */
   overflow: hidden;
   text-overflow: ellipsis;
@@ -33,7 +34,58 @@
   /* white-space: nowrap; */
   overflow: hidden;
   text-overflow: ellipsis;
+}
+.circle1 {
+  height: 400px;
+  width: 400px;
+  background-color: #e4e4e4be;
+  flex-direction: column;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 4rem;
+  padding : 10px;
+}
+.circle1 span {
+  font-size: 13px;  /* 원 안의 글자 원하는 크기로 조정 */
+  /* white-space: nowrap; */
+  overflow: hidden;
+  text-overflow: ellipsis;
 } 
+.circle1 h6 {
+  font-size: 15px;  /* 원 안의 글자 원하는 크기로 조정 */
+  /* white-space: nowrap; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+} 
+.circle2 {
+  height: 500px;
+  width: 500px;
+  background-color: #e4e4e4be;
+  flex-direction: column;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 5rem;
+  padding : 10px;
+  
+}
+.circle2 span {
+  font-size: 15px;  /* 원 안의 글자 원하는 크기로 조정 */
+  /* white-space: nowrap; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+} 
+.circle2 h6 {
+  font-size: 15px;  /* 원 안의 글자 원하는 크기로 조정 */
+  /* white-space: nowrap; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}  
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -7063,6 +7115,7 @@ textarea.form-control-lg {
 }
 
 .flex-shrink-0 {
+  margin-left: 9rem;
   flex-shrink: 0 !important;
 }
 
@@ -7385,10 +7438,12 @@ textarea.form-control-lg {
 }
 
 .mb-0 {
+  margin-top : 10;
   margin-bottom: 0 !important;
 }
 
 .mb-1 {
+  margin-top : 10;
   margin-bottom: 0.25rem !important;
 }
 
