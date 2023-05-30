@@ -11,16 +11,28 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
  .circle {
-  height: 400px;
-  width: 400px;
+  height: 350px;
+  width: 350px;
   background-color: #e4e4e4;
-  flex-direction:row;
+  flex-direction: column;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 0 auto;
+  margin-left: 2rem;
+}
+.circle span {
+  font-size: 13px;  /* 원 안의 글자 원하는 크기로 조정 */
+  /* white-space: nowrap; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+} 
+.circle h6 {
+  font-size: 15px;  /* 원 안의 글자 원하는 크기로 조정 */
+  /* white-space: nowrap; */
+  overflow: hidden;
+  text-overflow: ellipsis;
 } 
 :root {
   --bs-blue: #0d6efd;
@@ -653,7 +665,9 @@ progress {
   margin-right: auto;
   margin-left: auto;
 }
-
+.container-t {
+  align-items : center;
+}
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
