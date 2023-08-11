@@ -61,8 +61,8 @@
   text-overflow: ellipsis;
 } 
 .circle2 {
-  height: 500px;
-  width: 500px;
+  height: 450px;
+  width: 450px;
   background-color: #e4e4e4be;
   flex-direction: column;
   border-radius: 50%;
@@ -85,7 +85,33 @@
   /* white-space: nowrap; */
   overflow: hidden;
   text-overflow: ellipsis;
-}  
+}
+.circle3 {
+  height: 450px;
+  width: 450px;
+  background-color: #e4e4e4be;
+  flex-direction: column;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 10rem;
+  padding : 10px;
+
+}
+.circle3 span {
+  font-size: 15px;  /* 원 안의 글자 원하는 크기로 조정 */
+  /* white-space: nowrap; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.circle3 h6 {
+  font-size: 15px;  /* 원 안의 글자 원하는 크기로 조정 */
+  /* white-space: nowrap; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
